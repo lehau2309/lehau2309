@@ -1,0 +1,318 @@
+.wapper {  
+    height: 610px;
+    display: flex;
+    margin-top: 20px;
+}
+.wapperL {
+    flex: 1;
+    margin-right: 30px;
+    display: flex;
+    margin-top: 200px;
+    position: relative;
+}
+
+.wapperL .laptop {
+    width: 452.95px;
+    height: 388.78px;
+   margin-top: 30px;
+   margin-left: 30px;
+   object-fit: cover;
+}
+.wapperL .mobile {
+    width: 140px;
+    height: 296px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 432px;
+    object-fit: cover;
+}
+.wapperR {
+    flex: 1;
+    margin-top: 200px;
+}
+.wapperR .title  {
+    display: flex;
+    font-size: 40px;
+}
+.wapperR .title .app {
+    text-shadow: 0px 5px 5px #9C9C9C;
+    margin-left: 30px;
+    color: #FF00EE;
+    font-weight: bold;
+}
+.wapperR .title {
+    margin: 20px 20px;
+    font-size: 40px;
+}
+.wapperR .content {
+    line-height: 25px;
+}
+.wapperR .image {
+    width: 323px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 70px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .wapper {  
+        height: 501px;
+    }
+    .wapperL {
+       margin-top: 146px;
+    }
+    .wapperL .laptop {
+        width: 367.95px;
+        height: 325.78px;
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .wapperL .mobile {
+        width: 118px;
+        height: 263px;
+        margin-top: 81px;
+        margin-left: 368px;
+    }
+    .wapperR {
+        margin-top: 145px;
+    }
+    .wapperR .title  {
+        font-size: 33px;
+    }
+    .wapperR .content {
+        line-height: 25px;
+    }
+    .wapperR .image {
+        margin-top: 20px;
+        margin-left: 70px;
+        width: 272px;
+        height: 95px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .wapper {  
+        height: 371px;
+    }
+    .wapperL {
+        margin-top: 75px;
+    }
+    .wapperL .laptop {
+        width: 306.95px;
+        height: 269.78px;
+        margin-top: 27px;
+        margin-left: 0px;
+    }
+    .wapperL .mobile {
+        width: 91px;
+    height: 200px;
+    margin-top: 72px;
+    margin-left: 286px;
+    }
+    .wapperR {
+        margin-top: 75px;
+    }
+    .wapperR .title  {
+        font-size: 25px;
+        margin: 15px 15px;
+    }
+    .wapperR .content {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .wapperR .image {
+        margin-top: 28px;
+        margin-left: 46px;
+        width: 194px;
+        height: 78px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .wapperL .laptop {
+        width: 266.95px;
+        height: 233.78px;
+        margin-top: 60px;
+        margin-left: 26px;
+    }
+    .wapperL .mobile {
+        width: 91px;
+        height: 200px;
+        margin-top: 72px;
+        margin-left: 274px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wapper {
+        height: 235px;
+    }
+    .wapperL {
+        margin-top: 50px;
+    }
+    .wapperL .laptop {
+        width: 176.95px;
+        height: 155.78px;
+        margin-top: 30px;
+        margin-left: 74px
+    }
+    .wapperL .mobile {
+        width: 50px;
+        height: 103px;
+        margin-top: 56px;
+        margin-left: 234px;
+    }
+    .wapperR {
+        margin-top: 50px;
+    }
+    .wapperR .title  {
+        font-size: 13px;
+        margin: 8px 8px;      
+    }
+    .wapperR .title .app {
+        margin-left: 10px;
+    }
+    .wapperR .content {
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .wapperR .image {
+        margin-top: 6px;
+        margin-left: 28px;
+        width: 133px;
+        height: 51px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .wapper {  
+        height: 804px;
+        flex-direction: column;       
+    }
+    .wapperL {
+        flex: 1;
+        margin-right: 0px;
+        display: flex;
+        margin-top: 74px;
+    }
+    
+    .wapperL .laptop {
+        width: 326.95px;
+        height: 286.78px;
+        margin-top: 68px;
+        margin-left: 33px;
+    }
+    .wapperL .mobile {
+        width: 116px;
+        height: 221px;
+        position: absolute;
+        margin-top: 105px;
+        margin-left: 330px;
+    }
+    .wapperR {
+        margin-top: 0px;
+    }
+    .wapperR .title  {
+        font-size: 30px;
+        margin: 20px 20px;
+    }
+    .wapperR .title .app {
+        text-shadow: 0px 5px 5px #9C9C9C;
+        margin-left: 30px;
+        color: #FF00EE;
+        font-weight: bold;
+    }
+    .wapperR .content {
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .wapperR .image {
+        width: 323px;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 70px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 414px) {
+    .wapper {  
+        height: 676px;
+    }  
+    .wapperL {
+        margin-top: 0px;
+    }
+    .wapperL .laptop {
+        width: 265.95px;
+        height: 231.78px;
+        margin-top: 53px;
+        margin-left: 29px;
+    }
+    .wapperL .mobile {
+        width: 82px;
+        height: 153px;
+        position: absolute;
+        margin-top: 105px;
+        margin-left: 262px;;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .wapper {  
+        height: 581px;
+    }
+    .wapperL .laptop {
+        width: 221.95px;
+        height: 194.78px;
+        margin-top: 41px;
+        margin-left: 29px;
+    }
+    .wapperL .mobile {
+        width: 82px;
+        height: 153px;
+        margin-top: 73px;
+        margin-left: 232px;
+    }  
+    .wapperR {
+        margin-top: 0px;
+    }
+    .wapperR .title  {
+        font-size: 30px;
+        margin: 0 0 20px 20px;
+        line-height: 20px;
+    }
+    .wapperR .content {
+        font-size: 15px;
+    }
+    .wapperR .image {
+        width: 276px;
+        height: 108px;
+        margin-top: 20px;
+        margin-left: 46px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .wapper {  
+        height: 581px;
+        margin-top: 0;
+    }  
+    .wapperR {
+        margin-top: 0px;
+    }
+    .wapperR .title  {
+        font-size: 30px;
+        margin: 0 0 20px 20px;
+        line-height: 20px;
+    }
+    .wapperR .content {
+        font-size: 15px;
+    }
+    .wapperR .image {
+        width: 233px;
+        height: 94px;
+        margin-top: 20px;
+        margin-left: 27px;
+    }
+    
+}

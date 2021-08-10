@@ -1,0 +1,460 @@
+.wapper {
+    background: #B85A5A;
+    
+}
+.last {
+    display: flex; 
+    height: 354px; 
+}
+.lastLeft {
+    height: 324.44px; 
+    margin: auto;
+    flex: 1;
+    color: floralwhite;
+    margin-top: 11.8px;
+}
+.lastLeft .title {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+.lastLeft .content {
+    margin-top: 12px;
+    line-height: 18px;
+    font-size: 13px;
+}
+.lastLeft .image {
+    width: 251px;
+    height: 116px;
+}
+.lastCenter {
+    height: 275.04px;
+    flex: 1;
+    color: floralwhite;
+    margin-top: 20.8px;
+    margin-left: 255.5px;
+    margin-right: 188.5px;
+}
+.lastCenter .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lastCenter .content {
+    margin-top: 60px;
+    line-height: 25px;
+    font-size: 13px;
+}
+.lastCenter .image {
+    margin-top: 40px;
+    object-fit: cover;
+}
+.lastRight {
+    height: 294.06px;
+    flex: 1;
+    margin-top: 20.8px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    line-height: 50px;
+}
+.lastRight .title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.lastRight .imageTop {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    margin-left: 35px;
+    object-fit: cover;
+}
+.lastRight .app {
+    object-fit: cover;
+    width: 172px;
+    height: 53px;
+}
+.lastRight .play {
+    object-fit: cover;
+    width: 172px;
+    height: 53px;
+}
+
+@media screen and (max-width: 1024px) {
+    .last {
+        height: 348px;
+    }
+    .lastLeft {
+        margin-left: 30px;
+    }
+    .lastLeft .title {
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+    .lastLeft .content {
+        font-size: 13px;
+    }
+    .lastLeft .map {
+        width: 273px;
+        height: 111px;
+        object-fit: cover;
+    }
+    .lastCenter {             
+      margin-left: 87.5px;
+      margin-right: 80.5px;
+    }
+    .lastCenter .content {
+        margin-top: 50px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .lastRight  {
+        margin-right: 30px;
+    }
+    .lastRight .imageTop {
+        width: 47px;
+        height: 47px;
+        display: flex;
+        margin-left: 55px;
+    }
+    .lastRight .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .last {
+        height: 296px;
+    }
+    .lastLeft {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .lastLeft .title {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .lastLeft .map {
+        width: 219px;
+        height: 76px;
+    }
+    .lastCenter {             
+      margin-left: 71.5px;
+      margin-right: 48.5px;
+    }
+    .lastCenter .content {
+        margin-top: 50px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .lastRight  {
+        margin-right: 0px;
+    }
+    .lastRight .imageTop {
+        width: 47px;
+        height: 47px;
+        display: flex;
+        margin-left: 55px;
+    }
+    .lastRight .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 768px) {
+    .last {
+        height: 303px;
+    }
+    .lastLeft {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .lastLeft .title {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .lastLeft .map {
+        width: 236px;
+        height: 100px;
+    }
+    .lastCenter {             
+        margin-left: 30.5px;
+        margin-right: 30.5px;
+    }
+    .lastCenter .content {
+        margin-top: 50px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .lastRight  {
+        margin-right: 0px;
+    }
+    .lastRight .imageTop {
+        width: 47px;
+        height: 47px;
+        display: flex;
+        margin-left: 55px;
+    }
+    .lastRight .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 600px) {
+    .last {
+        height: 248px;
+    }
+    .lastLeft {
+        width: 162.54px;
+        height: 246.44px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .lastLeft .title {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .lastLeft .content {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .lastLeft .map {
+        width: 162.54px;
+        height: 50px;
+    }
+    .lastCenter {             
+       margin: 0px 20px;
+       height: 194px;
+    }
+    .lastCenter .title {
+        font-size: 15px;
+    }
+    .lastCenter .content {
+        margin-top: 30px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .lastCenter .image {
+        width: 154px;
+        height: 51px;
+        margin-top: 20px;
+    }
+
+    .lastRight  {
+        margin-right: 0px;
+        height: 232px;
+        margin-top: 0;
+    }
+    .lastRight .imageTop {
+        width: 30px;
+        height: 30px;      
+        margin-left: 40px;
+    }
+    .lastRight .title {
+        font-size: 11px;
+    }
+    .lastRight .app {
+        width: 143px;
+        height: 40px;
+    }
+    .lastRight .play {
+        width: 143px;
+        height: 40px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    
+    .last {
+        flex-direction: column;
+        height: 1037px; 
+    }
+    .lastLeft {
+        height: 367.44px; 
+        margin: auto;
+        margin-top: 0px;
+        border: 1px solid;
+        width: 480px;
+    }
+    .lastLeft .title {
+        font-size: 30px;   
+    }
+    .lastLeft .content {
+        margin-top: 30px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .lastLeft .map {
+        width: 480px;
+        height: 156px;
+    }
+    .lastCenter {
+        height: 275.04px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 480px;
+    }
+    .lastCenter .title {
+        text-align: center;
+        font-size: 30px;     
+    }
+    .lastCenter .content {
+        margin-top: 30px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .lastCenter .image {
+        margin-top: 40px;
+       width: 300px;
+       height: 100px;
+    }
+    .lastRight {
+        width: 480px;
+        margin-top: 0px;
+    }
+    .lastRight .title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .lastRight .imageTop {
+        width: 55px;
+        height: 55px;
+        margin: 20px 155px; 
+    }
+    .lastRight .app {
+        width: 172px;
+        height: 53px;
+    }
+    .lastRight .play {
+        width: 172px;
+        height: 53px;
+    }
+    
+}
+@media screen and (max-width: 414px) {
+    .last {       
+        height: 1037px; 
+    }
+    .lastLeft {
+        height: 373.44px; 
+        margin: auto;
+        width: 414px;
+    }
+    .lastLeft .title {
+        font-size: 30px;   
+    }
+    .lastLeft .content {
+        margin-top: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .lastLeft .map {
+        width: 414px;
+        height: 156px;
+    }
+    .lastCenter {
+        width: 414px;
+    }
+    .lastCenter .title {
+        text-align: center;
+        font-size: 30px;     
+    }
+    .lastCenter .content {
+        margin-top: 30px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .lastCenter .image {
+        margin-top: 40px;
+       width: 300px;
+       height: 100px;
+    }
+    .lastRight {
+        width: 414px;
+    }
+    .lastRight .title {
+        font-size: 25px;
+    }
+    .lastRight .imageTop {
+        width: 55px;
+        height: 55px;
+        margin: 20px 140px; 
+    }
+    .lastRight .app {
+        width: 172px;
+        height: 53px;
+    }
+    .lastRight .play {
+        width: 172px;
+        height: 53px;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .last {       
+        height: 1037px; 
+    }
+    .lastLeft {
+        width: 375px;
+        height: 373.44px; 
+        margin: auto;
+    }
+    .lastLeft .title {
+        font-size: 25px;   
+    }
+    .lastLeft .content {
+        margin-top: 10px;    
+    }
+    .lastCenter {
+        width: 375px;
+    }
+    .lastRight {
+        width: 375px;
+    }
+    .lastRight .title {
+        font-size: 20px;
+    }
+    .lastRight .imageTop {
+        width: 55px;
+        height: 55px;
+        margin: 20px 120px; 
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .last {       
+        height: 1037px; 
+    }
+    .lastLeft {
+        width: 320px;
+        height: 373.44px; 
+        margin: auto;
+    }
+    .lastLeft .title {
+        font-size: 25px;   
+    }
+    .lastLeft .content {
+        margin-top: 10px;    
+    }
+    .lastCenter {
+        width: 320px;
+    }
+    .lastRight {
+        width: 320px;
+    }
+    .lastRight .title {
+        font-size: 20px;
+    }
+    .lastRight .imageTop {
+        width: 55px;
+        height: 55px;
+        margin: 20px 90px; 
+    }
+    
+}

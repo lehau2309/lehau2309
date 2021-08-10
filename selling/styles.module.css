@@ -1,0 +1,306 @@
+.wapperTop {
+    display: flex;
+    margin-left: 20px;
+   justify-content: center;
+    height: 100%;
+    margin: 20px 0;
+}
+.sell {
+    background: red;
+    margin-right: 20px;
+    color: white;
+    font-family: Italic;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 15px;
+
+}
+.one {
+    font-size: 32px;
+    font-weight: bold;
+}
+.wapperButton { 
+    height: 421px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+   
+   
+}
+.selling {
+    flex: 0 0 auto;
+    width: 269px;
+    height: 376px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-right: 20px;
+    border-radius: 15px;
+    white-space: normal;
+    text-align: center;
+    margin: 15px 15px;
+   
+}
+.image {
+    transition: all 1s;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    height: 121px;
+    overflow: hidden;
+    width: 176px;
+    align-items: center;
+}
+.selling:hover .image {
+    transform: scale(1.2);
+}
+.name{
+    margin: 14px 0;
+}
+
+.size {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+}
+.price {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.priceLeft {
+   padding-right: 20px;
+   text-decoration: line-through;
+   color: #B8B9B8;
+}
+.priceRight {
+    color: #FF0000;
+    font-size: 20px;
+}
+.run {
+    width: 150px;
+    height: 60px;
+    opacity: 0;
+}
+.selling:hover .run {
+    transform: translateY(-5px);
+    opacity: 1;
+    transition: all 1s;
+}
+@media screen and (max-width: 1024px) {
+    .wapperButton { 
+        height: 344px;        
+   }
+    .selling {      
+        width: 225px;
+        height: 311px;
+        margin-right: 15px;  
+       
+    }
+    .selling:hover .run {
+        transform: translateY(-55px);       
+    }
+}
+@media screen and (max-width: 800px) {  
+    .sell {        
+        font-size: 27px;          
+    }
+    .one {
+        font-size: 27px;       
+    }
+    .wapperButton {
+        height: 338px;
+    }
+    .selling {
+        width: 234px;
+        height: 303px
+    }
+    .selling:hover .run {
+        transform: translateY(-60px);
+    }
+}
+@media screen and (max-width: 768px){
+    .selling {
+        width: 225px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wapperTop {
+        margin: 10px 0;
+    }
+    .sell {     
+        font-size: 25px;        
+    }
+    .one {
+        font-size: 25px;      
+    }
+    .wapperButton { 
+        height: 295px;     
+    }
+    .selling {    
+        width: 171px;
+        height: 262px;             
+        margin: 15px 15px;      
+    }
+    .image {
+        width: 142px;
+        height: 83px;               
+    }   
+    .name{
+        margin: 6px 0;
+        font-size: 16px;
+    }    
+    .size {   
+        font-size: 14px;
+    }
+    .selling h4 {
+        font-size: 13px;
+    }
+    .price {
+        margin-top: 10px;      
+    }
+    
+    .priceLeft {
+       font-size: 13px;
+    }
+    .priceRight {    
+        font-size: 15px;
+    }
+    .run {
+        width: 120px;
+        height: 44px;       
+    }
+    .selling:hover .run {
+        transform: translateY(-10px);
+    }   
+}
+@media screen and (max-width: 480px) {  
+    .sell {     
+        font-size: 20px;        
+    }
+    .one {
+        font-size: 20px;      
+    }
+    .wapperButton { 
+        height: 295px;     
+    }
+    .selling {    
+        width: 208px;
+        height: 263px;
+        margin: 15px 15px;  
+    }
+    .image {
+        width: 150px;
+        height: 85px;               
+    }   
+    .name{
+        margin: 6px 0;
+        font-size: 16px;
+    }    
+    .size {   
+        font-size: 14px;
+    }
+    .selling h4 {
+        font-size: 13px;
+    }
+    .price {
+        margin-top: 10px;      
+    }
+    
+    .priceLeft {
+       font-size: 13px;
+    }
+    .priceRight {    
+        font-size: 15px;
+    }
+    .run {
+        width: 150px;
+        height: 50px;       
+    }   
+    .selling:hover .run {
+        transform: translateY(-20px);
+    }
+}
+@media screen and (max-width: 414px) {
+    .wapperButton { 
+        height: 427px;     
+    }
+    .selling {    
+        width: 340px;
+        height: 390px;
+        margin: 30px 30px; 
+        border-radius: 25px; 
+    }
+    .image {
+        height: 147px;               
+    }   
+    .name{
+        margin: 10px 0;
+        font-size: 25px;
+    }    
+    .size {   
+        font-size: 16px;
+    }
+    .selling h4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .price {
+        margin-top: 10px;      
+    }
+    
+    .priceLeft {
+       font-size: 13px;
+    }
+    .priceRight {    
+        font-size: 20px;
+    }
+    .run {
+        width: 219px;
+        height: 67px;       
+    }   
+    .selling:hover .run {
+        transform: translateY(-20px);
+    }
+}
+@media screen and (max-width: 375px) {
+    .wapperButton { 
+        height: 357px;     
+    }
+    .selling {    
+        width: 302px;
+        height: 312px;
+        margin: 20px 30px; 
+        border-radius: 20px; 
+    }
+    .image {
+        height: 120px;               
+    }      
+    .run {
+        width: 180px;
+        height: 58px;       
+    }   
+    .selling:hover .run {
+        transform: translateY(-40px);
+    }
+}
+@media screen and (max-width: 320px) {
+    .wapperButton { 
+        height: 357px;     
+    }
+    .selling {    
+        width: 259px;
+        height: 312px;
+        margin: 20px 30px; 
+        border-radius: 20px; 
+    }
+}

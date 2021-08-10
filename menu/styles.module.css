@@ -1,0 +1,65 @@
+.menu ul {
+    background-color: #F0EFEF;
+    height: 36px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    line-height: 36px;
+    margin-top: 20px; 
+}
+.menu ul li {
+    margin: auto;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: block; 
+    background-color: #F0EFEF;
+    height: 36px; 
+    color: black;
+}
+.menu ul li a:hover {
+    background-color: red;
+    color: snow;
+    
+}
+@media screen and (max-width: 600px) {
+    .menu ul {
+       font-size: 12px;      
+    }
+}
+@media screen and (max-width: 480px) {
+    .menu ul {
+        height: 30px;
+    }
+    .menu ul li a {
+        height: 30px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .menu ul {
+        height: 50px;
+    }
+    .menu ul li a {
+        height: 50px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu ul {
+        height: 50px;
+    }
+    .menu ul li a {
+        height: 50px; 
+        line-height: 20px;
+    }
+}
+
+   
+   
+  
+
+ 
+

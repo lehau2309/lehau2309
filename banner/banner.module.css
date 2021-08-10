@@ -1,0 +1,46 @@
+.banner {
+    text-align: center;
+    margin-top: 20px;
+    height: 371.89px;
+}
+.bannerTop {
+    height: 100%;
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 330.89px;
+    }    
+}
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 257px;
+    }    
+}
+@media screen and (max-width: 600px) {
+    .banner {
+        height: 187px;
+    } 
+}
+@media screen and (max-width: 480px) {
+    .banner {
+        height: 155px;
+    } 
+    
+}
+@media screen and (max-width: 414px) {
+    .banner {
+        height: 133px;
+    } 
+}
+@media screen and (max-width: 375px) {
+    .banner {
+        height: 120px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .banner {
+        height: 101px;
+    } 
+}

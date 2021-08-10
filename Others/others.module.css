@@ -1,0 +1,65 @@
+.wapper {
+    margin: auto;
+}
+.title {
+    margin: 20px 40px;
+    
+}
+.others {
+    display: grid;
+    grid-template-columns: repeat(5, auto);   
+}
+.other {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.image {
+    width: 151px;
+    height: 145px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sizes {
+    padding-top: 20px;
+}
+.priceLeft{
+text-decoration: line-through;
+padding-right: 30px;
+}
+.priceRight {
+    color: red;
+    font-size: 18px;
+}
+@media screen and (max-width: 1024px) {
+    .others {
+        display: grid;
+        grid-template-columns: repeat(4, auto);   
+     }
+     
+}
+@media screen and (max-width: 800px) {
+    .others {
+        grid-template-columns: repeat(3, auto);             
+    }
+}
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .others {
+        grid-template-columns: repeat(2, auto);             
+    }
+}
+@media screen and (max-width: 414px) {
+    .others {
+        grid-template-columns: repeat(1, auto);             
+    }
+}
